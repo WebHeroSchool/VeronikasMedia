@@ -1,0 +1,60 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  background-color: lightgreen;
+  padding: 0 0 0 15px;
+}
+
+a {
+  margin-right: 30px;
+  color: blue;
+  font-size: 30px;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+
+.nav a:hover {
+  background-color: grey;
+}
+
+@media all and (max-width: 600px) {
+  a {
+    opacity: 0;
+  }
+}
+
+.burger {
+  margin: 0 auto;
+  margin: 10px 10px 0 0;
+  width: 30px;
+  height: 30px;
+  position: relative;
+}
+
+.burger .bar {
+  padding: 0;
+  width: 30px;
+  height: 4px;
+  background-color: green;
+  display: block;
+  position: absolute;
+}
+
+.bar1 {
+  top: 0;
+}
+
+.bar2,
+.bar3 {
+  top: 13 px;
+}
+
+.bar3 {
+  right: 0;
+}
+
+.bar4 {
+  bottom: 0;
+}
