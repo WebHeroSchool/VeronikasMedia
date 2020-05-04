@@ -58,3 +58,9 @@ a {
 .bar4 {
   bottom: 0;
 }
+
+@media all and (min-width: 600px) {
+  .burger {
+    opacity: 0;
+  }
+}
